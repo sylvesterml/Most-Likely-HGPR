@@ -2,7 +2,7 @@
 ICML2007で発表された「Most Likely Heteroscedastic Gaussian Process Regression」を読み，提案手法を実装しました．  
 論文URL：http://people.csail.mit.edu/kersting/papers/kersting07icml_mlHetGP.pdf  
 
-## Heteroscedastic Gaussian Process Representationとは  
+## Heteroscedastic Gaussian Process Regressionとは  
 HGPRは邦訳だと異分散ガウス過程回帰と呼ばれるアルゴリズムです．
 y=f(x)の関数が存在する時，xの値によってyの従う確率分布の分散が変化するような関数を表します．
 例えば，論文中ではいくつかのテスト関数を用いて検証しているが，その一つが Yuan and Wahba (2004)で用いられた関数であり，式は以下のように定義されます．  
